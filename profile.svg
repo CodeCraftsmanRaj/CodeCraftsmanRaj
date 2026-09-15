@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="580px" font-size="16px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.key {fill: #ffa657;}
+.value {fill: #a5d6ff;}
+.addColor {fill: #3fb950;}
+.delColor {fill: #f85149;}
+.cc {fill: #616e7f;}
+.prompt {fill: #2AA9E0;}
+.sep {fill: #7d8590;}
+.out {fill: #8b949e;}
+text, tspan {white-space: pre;}
+@media (prefers-reduced-motion: no-preference) {
+.t {opacity: 0; animation: tline .25s ease forwards;}
+.t.cursor {animation: tline .25s ease forwards, blink 1.1s steps(1) infinite;}
+@keyframes tline {from {opacity: 0;} to {opacity: 1;}}
+@keyframes blink {0%, 49% {opacity: 1;} 50%, 100% {opacity: 0;}}
+}
+</style>
+<rect width="985px" height="580px" fill="#161b22" rx="15"/>
+
+<!-- terminal title bar -->
+<rect x="0" y="0" width="985" height="34" fill="#0d1117" rx="15"/>
+<rect x="0" y="20" width="985" height="14" fill="#0d1117"/>
+<circle cx="20" cy="17" r="6" fill="#ff5f56"/>
+<circle cx="42" cy="17" r="6" fill="#ffbd2e"/>
+<circle cx="64" cy="17" r="6" fill="#27c93f"/>
+<text id="terminal_title" x="492" y="22" fill="#7d8590" font-size="13px" text-anchor="middle" class="t" style="animation-delay:0.05s">raj@github: ~</text>
+
+<!-- top terminal commands -->
+<text x="15" y="64"><tspan id="terminal_user" x="15" y="64" class="prompt t" style="animation-delay:0.25s">raj@github</tspan><tspan class="sep t" style="animation-delay:0.25s">:</tspan><tspan class="value t" style="animation-delay:0.25s">~</tspan><tspan class="sep t" style="animation-delay:0.25s">$ </tspan><tspan class="t" fill="#86efac" style="animation-delay:0.25s">whoami</tspan></text>
+<text id="headline" x="15" y="86" class="out t" style="animation-delay:0.45s">Raj Kalpesh Mathuria - Data Science | Software | AI</text>
+<text x="15" y="118"><tspan id="terminal_user_fastfetch" x="15" y="118" class="prompt t" style="animation-delay:0.65s">raj@github</tspan><tspan class="sep t" style="animation-delay:0.65s">:</tspan><tspan class="value t" style="animation-delay:0.65s">~</tspan><tspan class="sep t" style="animation-delay:0.65s">$ </tspan><tspan class="t" fill="#86efac" style="animation-delay:0.65s">fastfetch</tspan></text>
+
+<!-- photo -->
+
+<text x="15.77" y="141.6" fill="#c9d1d9" font-size="4.3px" stroke="#c9d1d9" stroke-width="0.5">
+<tspan x="15.77" y="141.6" class="t" style="animation-delay:0.9s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="146.3" class="t" style="animation-delay:0.93s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="151.0" class="t" style="animation-delay:0.97s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="155.7" class="t" style="animation-delay:1.0s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#%xxxo;;;;:;ooxx%#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="160.4" class="t" style="animation-delay:1.03s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#xo;::,,,,,,,,,,,,,,,,,,,,,,,,,::o%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="165.1" class="t" style="animation-delay:1.07s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%xo;:,,,,.....       .....,,,,,,,,,,,,,,,,,:o@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="169.7" class="t" style="animation-delay:1.1s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#%o:,,,....                    .....,,,,,,,,,....,,;%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="174.4" class="t" style="animation-delay:1.13s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#%o:,....          .      ...................,,.....,....,o#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="179.1" class="t" style="animation-delay:1.17s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#o,....         ..............   ..................,...........,o#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="183.8" class="t" style="animation-delay:1.2s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%:.                ........................................ ..  ....,o@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="188.5" class="t" style="animation-delay:1.23s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%:..           ..           .............,,..,,,,.........,,,,.        ..,;#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="193.2" class="t" style="animation-delay:1.27s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@%:.                    .................     .......,,,........,,,...       ..:%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="197.9" class="t" style="animation-delay:1.3s">@@@@@@@@@@@@@@@@@@@@@@@@@@@%:                   ..........................      ..,,,.... ...,,,...        .:#@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="202.6" class="t" style="animation-delay:1.33s">@@@@@@@@@@@@@@@@@@@@@@@@@@%,              ...................    .....,,,,.....     ..,,... .........        ,x@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="207.3" class="t" style="animation-delay:1.37s">@@@@@@@@@@@@@@@@@@@@@@@@#:    ..     ....           ........  . .........,,,,....        .....      .         .;#@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="212.0" class="t" style="animation-delay:1.4s">@@@@@@@@@@@@@@@@@@@@@@@x,   .      .              ...          ......       ........           .              .,x@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="216.7" class="t" style="animation-delay:1.43s">@@@@@@@@@@@@@@@@@@@@@#;, ....                 ......................,,,....                                    ,x#@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="221.3" class="t" style="animation-delay:1.47s">@@@@@@@@@@@@@@@@@@@@x:.                           ...,,................,,,.........                            .:#@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="226.0" class="t" style="animation-delay:1.5s">@@@@@@@@@@@@@@@@@@@%,                                .......           .....                                   .,o#@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="230.7" class="t" style="animation-delay:1.53s">@@@@@@@@@@@@@@@@@@@;              .  ..........                  .      .............,,............             .o@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="235.4" class="t" style="animation-delay:1.57s">@@@@@@@@@@@@@@@@@@o,                ..                 .........,,,,::::;;;;;;;;;;;;;;;::::,,,:,,,,,,,..         .,o%@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="240.1" class="t" style="animation-delay:1.6s">@@@@@@@@@@@@@@@@@x;.                         ...............,,::;;;oooooooooooooooooooo;;;;;;;::::::::::,....      ..;%@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="244.8" class="t" style="animation-delay:1.63s">@@@@@@@@@@@@@@@@%;.                      .........  ......,::;;;ooooxxxxxxxxxxxxxooooooooo;;;;;;;;;;;;;;::,..        ..;%@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="249.5" class="t" style="animation-delay:1.67s">@@@@@@@@@@@@@@@#x,                        ...  .. ......,:;;;ooooxxxxxxxxxxxxxxxxxxxxxxoooooooo;o;oo;;;;;::,..         .,;#@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="254.2" class="t" style="animation-delay:1.7s">@@@@@@@@@@@@@@@%,                           ....... ...,:;oooxxxxxxxxxxxxxxxxxxxxxxxxxxxooooooooooo;ooo;;;:,,.          ..;%@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="258.9" class="t" style="animation-delay:1.73s">@@@@@@@@@@@@@@#o.                          ..........,:;ooxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxoooooooooo;;;oo;;;::,.           ..:x@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="263.6" class="t" style="animation-delay:1.77s">@@@@@@@@@@@@@@x,                           ........,:;;oxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxooooooo;oooo;oooo;;;:,..          ...;%@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="268.3" class="t" style="animation-delay:1.8s">@@@@@@@@@@@@@#;.                              ...,,:;oooxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxooooooooooooo;ooooo;;:,,..          ..,o%@@@@@@@@@@</tspan>
+<tspan x="15.77" y="272.9" class="t" style="animation-delay:1.83s">@@@@@@@@@@@@@#:                               .,,:;;ooooxxxxxxxxxxxxxxxxxxxxxxxxxxxxxooooooooooo;;;ooooo;;;:,,,..          ..:o#@@@@@@@@@</tspan>
+<tspan x="15.77" y="277.6" class="t" style="animation-delay:1.87s">@@@@@@@@@@@@@#:                             .,::;oooooooxxxxxxxxxxxxxxxxxxxxxxxxxxxxxoooooooooo;;;;;;ooo;;;:,.....    .    ..,;%@@@@@@@@@</tspan>
+<tspan x="15.77" y="282.3" class="t" style="animation-delay:1.9s">@@@@@@@@@@@@@@:                           ..,::;ooooooooxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxoooooooooo;;;;;;;;;;;:,..... . . ......,;x@@@@@@@@@</tspan>
+<tspan x="15.77" y="287.0" class="t" style="animation-delay:1.93s">@@@@@@@@@@@@@@x,                        ..,:;;;ooooooxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxooooooooo;;;;;;;;;;;:.   . ... ......,o%#@@@@@@@@</tspan>
+<tspan x="15.77" y="291.7" class="t" style="animation-delay:1.97s">@@@@@@@@@@@@@@x,                      ..,:;;;oooooxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxoooooooo;;oo;;;;;;;,    . .........,;#@@@@@@@@@</tspan>
+<tspan x="15.77" y="296.4" class="t" style="animation-delay:2.0s">@@@@@@@@@@@@@@#:                     .,::;;;ooooooxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxoooooooo;::::;;;;;;;;:.       . .....:o%@@@@@@@@@</tspan>
+<tspan x="15.77" y="301.1" class="t" style="animation-delay:2.03s">@@@@@@@@@@@@@@@%,                   .,:;;;;:::;;;ooooooooooxxxxxxxxxxxxxxxxxxxxxxxxooo;;:::::::::,,,,,,::;;;::,       . ....,;%@@@@@@@@@@</tspan>
+<tspan x="15.77" y="305.8" class="t" style="animation-delay:2.07s">@@@@@@@@@@@@@@@@x.                 .,::;:,,,,,,,,,::::::::;;;;oooooxxxxxxxxxxoooooo;;:,,,,.,,,,,,,:::,,.,::;::,.       . ...,x#@@@@@@@@@@</tspan>
+<tspan x="15.77" y="310.5" class="t" style="animation-delay:2.1s">@@@@@@@@@@@@@@@@#,                .,:::,,.,,:::,,,...,,,,,,,:,:;;;;oooxxxxxoo;;:;;:::,,,,:;;;ooooxxo;::::,:::::.           .:%@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="315.2" class="t" style="animation-delay:2.13s">@@@@@@@@@@@@@@@@@:              ..,::,,,:::;;;oo;:,,,,,,,,,:oo:::::;;;ooooo;;::::,,,,,,,,,,::;;;;;;o;;;;;:::;::,           .;@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="319.9" class="t" style="animation-delay:2.17s">@@@@@@@@@@@@@@@@@o             .,,:::::::;oxooooo;;;;::,,,,,,,:;:::;;;;;;oo;::::,::,,,:::::;;;;;;;;;;;;;;;::;;:,          ..;@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="324.5" class="t" style="animation-delay:2.2s">@@@@@@@@@@@@@@@@@%.            .,:::::::;;;;;o;;;;;;::::,,,,,,,,,:::;;;;;oo;;:,,:,,:::::::::::,,,,,:::;;;;;:;;:,          . o@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="329.2" class="t" style="animation-delay:2.23s">@@@@@@@@@@@@@@@@@%.            .::::::::;;;;::,,,:::::::,.,,,,,,,,:,,::,::::::::::::::,,:::,::,,,,,,,,::;;;;;;:,           .%@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="333.9" class="t" style="animation-delay:2.27s">@@@@@@@@@@@@@@@@@o.            .:::::::::::,,,::,,.....,:::,,,,,,:::,,;oooo;:.,::::,,,,,. , ,. ,,...,,,::;;;;;:,:;,.    .,:;x%#@@@@@@@@@@</tspan>
+<tspan x="15.77" y="338.6" class="t" style="animation-delay:2.3s">@@@@@@@@@@@@@@@@@x,            .,::::;;:::,,,,..:..,.:..::,:::,,,:::,,oooooo;,,::::::,:;:.     :xo;,..,,::;::;:,.     .::::::;;%@@@@@@@@@</tspan>
+<tspan x="15.77" y="343.3" class="t" style="animation-delay:2.33s">@@@@@@@@@@@@@@@@@x,.          .:;::;:,:::,,. .:ox:.   .:xxo:,:;;::;:,:;ooxoo;:,:::;:,;oxx:.  .,x%x;:,,,,::;:::::.  ...:,,,,,..,;#@@@@@@@@</tspan>
+<tspan x="15.77" y="348.0" class="t" style="animation-delay:2.37s">@@@@@@@@@@@@@@@@@o,,::,.        ,,::::;::,,,,,;oxx;,.,;xxo;::::;::;;::oxxxxxo:,,,:;:::::;;;::;;;::::::::::;:::::. .,,,:;;;;;:,.,x@@@@@@@@</tspan>
+<tspan x="15.77" y="352.7" class="t" style="animation-delay:2.4s">@@@@@@@@@@@@@@@@x;:,.,,,,..... .,::::::::::::::::;oo;;;;;;:;;;;:::;;,;oxxxxxo;:;;:::;;;:::;;;;;;;;;;;;;;;;;:;;;;, .:;oooo;;;;:,,o#@@@@@@@</tspan>
+<tspan x="15.77" y="357.4" class="t" style="animation-delay:2.43s">@@@@@@@@@@@@@@@#;,. .,,,,,,,,. .:;;;;;::;;::::::;;;;;;;;;;;ooo;;;;;::ooxxxxxoo;:;;:;;ooooo;;;;;;;;;;;;;;;;;;;;;;,..:;;ooo;;;;:,:x@@@@@@@@</tspan>
+<tspan x="15.77" y="362.1" class="t" style="animation-delay:2.47s">@@@@@@@@@@@@@@@%;,,,:;;;;;;;:. .:;;;;;;;;;;;;;ooooooooooooooo;;;;;;,;ooxxxxxxo;::;;;;ooooxooooooooooooooo;;o;;;;,...::;;;;;;;:,;%@@@@@@@@</tspan>
+<tspan x="15.77" y="366.8" class="t" style="animation-delay:2.5s">@@@@@@@@@@@@@@@#o::::;oo;;;:,. .:;;;;;oo;ooooooxxxxxxxxxoooo;;ooo;,;;ooxxxxxoo;;::;;;;oooooxxxxxxooooooooooo;;;;,::,,::;;;;;;::o@@@@@@@@@</tspan>
+<tspan x="15.77" y="371.5" class="t" style="animation-delay:2.53s">@@@@@@@@@@@@@@@@x;::;;o;;:,.....,:;;;;oooooooxxxxxxxxxxooooooooo;::;;ooxxxxxooo;;:,;ooooooooooxxxooooooooooo;;;::o;::::;oo;;;:o#@@@@@@@@@</tspan>
+<tspan x="15.77" y="376.1" class="t" style="animation-delay:2.57s">@@@@@@@@@@@@@@@@#o:;;;o;;:,,..,.,::;;;oooooooxxxxxxxxxxxooooooo;::;;;ooxxxxxooo;;;:::;ooooooooxooooo;ooooooo;;;:;xx;::;;oo;;:o#@@@@@@@@@@</tspan>
+<tspan x="15.77" y="380.8" class="t" style="animation-delay:2.6s">@@@@@@@@@@@@@@@@@%;:;;;;;:,,,:;;,,:;;;;ooooooooxxxxxxxxooo;;;;;:;;;;;oooxxxxxooo;;;;;::;;;;;;;;;ooooooooooo;;;;:oxx;::;o;;;:o%@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="385.5" class="t" style="animation-delay:2.63s">@@@@@@@@@@@@@@@@@@#o::;;;:,,,;oo:,:;;;;;oooooooooooooooooooo;;;;;;;;ooxxxxxxxxoo;;;;;;ooooo;;;;;;;ooooooo;;;;;;ox%x;:;oo;::o%@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="390.2" class="t" style="animation-delay:2.67s">@@@@@@@@@@@@@@@@@@@@o;:;;;:,,:oo;:,::;;;;oooooooooooooooooooooo;;;;;ooxxxx%xxxxoo;;;;;ooooxooooooooooo;;;;;;;;:;oo;;oo;;:;;%@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="394.9" class="t" style="animation-delay:2.7s">@@@@@@@@@@@@@@@@@@@@@x;::;;:,,:ooo::::;;;;;;;;;oooooooxxxxxxooo;;o;;oxx%%%%%%xxoooo;;;oooooooooooooooo;;;;;;;;::oo;;;;:;;o#@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="399.6" class="t" style="animation-delay:2.73s">@@@@@@@@@@@@@@@@@@@@@@%;::,:::::::::::::;;;;;;;oooooooooxxooooo;;oo;oox%%%%%xxoooooo;ooooooooooooooo;;;;;;;;;;:;;;;;:;;;x@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="404.3" class="t" style="animation-delay:2.77s">@@@@@@@@@@@@@@@@@@@@@@@#o;:,,::;;;:,::::;;;;;;;;ooooooooooooooo;;ooo;;oxxxxxxo;;oooo;oooooooooooooo;;;;;;;;;;::;;;;;;;o#@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="409.0" class="t" style="animation-delay:2.8s">@@@@@@@@@@@@@@@@@@@@@@@@@%;;:::::::,,::::;;;;;;;;;oooooooooooo;;;;;,..:;oooo;:..,:;;oooooooooooooo;;;;;;;;;::;;;o;;;ox@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="413.7" class="t" style="animation-delay:2.83s">@@@@@@@@@@@@@@@@@@@@@@@@@@@%;;::;;;::::::;;;;;;;;;ooooooooooooo;:,...,,::::::::;:,:;ooooooooo;;;;;;;;;;;;;::;;;ooooox@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="418.4" class="t" style="animation-delay:2.87s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@#o;;;;;;::::::;;;;;;;;oooooooooooooooo;;:::::,,::;;;;;;oooooooo;;;;;;;;;;::;;;;;;oxxx%#@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="423.1" class="t" style="animation-delay:2.9s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#x;;;;:;o;:::;;;;;;;;;;;ooooooooooooo;;;:::::::::::::;;;ooooo;;;;;;;;;;::;;;;;;o#@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="427.8" class="t" style="animation-delay:2.93s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@@@@x;::;;;;;;;;;;;;oooooooooo;;;:::::::::::::,:::;;;;;;;;;;;;;;;::;;;;;;;x@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="432.4" class="t" style="animation-delay:2.97s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#o;;;;;;;;:;;;;;;;;;;;;;;::::::;::::;:::::::,,:,:::,:::::::::::;;;;;;;%@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="437.1" class="t" style="animation-delay:3.0s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@x;;;;;;;::::;;;;::::::::::::;;;;;;;;;;;;;;::::,,,,,,,,:::::::;;;;;;;o#@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="441.8" class="t" style="animation-delay:3.03s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#o;;;;;;;:::::::::,,,::::;;::;;;;;ooo;;;;::::,,,,. .,,:::::::;;;;;;;%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="446.5" class="t" style="animation-delay:3.07s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%;::::::::::::::,,...,,,,,::::::::::::::,,,,,,,,,,,,,,:::::;;;;;;;o#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="451.2" class="t" style="animation-delay:3.1s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%;::::::::::::,,,,,....,,,::::::::::;;;;;;;;;:::;;;::::::::;;;;:;%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="455.9" class="t" style="animation-delay:3.13s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%;:::::::::,,:::;;;::::;;ooxxxxxxxxxxxooo;;:::;;;;;:::::::;;:::o#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="460.6" class="t" style="animation-delay:3.17s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@o:::::::::::::;;;;;::::;;oooooooooooooo;;::;;;;;;:::::::::::::o#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="465.3" class="t" style="animation-delay:3.2s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%;:::::::::::::;;;;;;::::;;;;;;;;;;;;::::;;;;;;;;::::::::::::;o#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="470.0" class="t" style="animation-delay:3.23s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#;:::::::::::::;;;;;;;;::::,,,,,,,,,,:::;;;;;;;;::::::::::::;;o%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="474.7" class="t" style="animation-delay:3.27s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@o;:,,,:::::::::;;;;;;;;:::,,,...,,,:::;;;;;;;;;:::::::::::;;;o%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="479.4" class="t" style="animation-delay:3.3s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@o;;;,,,,::::::::;;;;;;;;;;::,,,,::;;;;;;;;;;;:;;;;:::::::;;;;;x@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="484.0" class="t" style="animation-delay:3.33s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@x;;;;:,,,::::::;;;;;ooooooo;;;;;;oooooooo;;;;;;;;;:::::;;;oo;;x@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="488.7" class="t" style="animation-delay:3.37s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@x;;;;;:,,,,:::;;;;;;ooooooooooooooooooooo;;;;;;;;:::::;;oooo;;o#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="493.4" class="t" style="animation-delay:3.4s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@o;;;;;;::,,,,::;;;;;;;ooooooooooooooooo;;;;;;;;::::::;;ooooo;;o#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="498.1" class="t" style="animation-delay:3.43s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#%o:,. :;;;;;;;::,.,,:::;;;;;;;;;;ooooooooo;;;;;;;::::::,:;;oooooooo;;:;%@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="502.8" class="t" style="animation-delay:3.47s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#x;,        ,;;;;;;;;::,..,,,:::;;;;;;;;;;;;;;;;::::::::::,,::;ooooooooooo;:. ,x@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="507.5" class="t" style="animation-delay:3.5s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@x,             ,;;;;;;;;;:::,,..,,::::::::::::::::::,:,,,,,,,,,;;ooooooooooo;;:.   .o@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="512.2" class="t" style="animation-delay:3.53s">@@@@@@@@@@@@@@@@@@@@@@@@@@@#,               .;;;;;;;;;;;::,,,....,,,,,,,,,,,,,...........,:;oooooooooooooo;;.     .o@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="516.9" class="t" style="animation-delay:3.57s">@@@@@@@@@@@@@@@@@@@@@@@@@@@;                .;;;;;;;;;;;;;;;::,,... .             .....,,:;ooooooooooooooo;;,       ;@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="521.6" class="t" style="animation-delay:3.6s">@@@@@@@@@@@@@@@@@@@@@@@@@@x.                .;;;;o;oooo;;;;;;;;;:,,..             ..,,::;;;oooxxxooooooooo;;:       .o@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="526.3" class="t" style="animation-delay:3.63s">@@@@@@@@@@@@@@@@@@@@@@@@@@,                 ,;;;oooooooo;;;;;;;;;;::,,....    ...,,:::;;;;ooooxxxxoooooooo;;:.       .#@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="531.0" class="t" style="animation-delay:3.67s">@@@@@@@@@@@@@@@@@@@@@@@@@x.                 ,;;;ooooooooo;;;;;;;;;;;;::,,,...,,,,:::;;;;;;ooooxxxxxooooooo;;:,        :@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="535.6" class="t" style="animation-delay:3.7s">@@@@@@@@@@@@@@@@@@@@@@@@@,                  :;;;ooooooooo;;;;;;;;;;;;;;::::::::::::;;;;;;;ooxxxxxooooooooo;;:,.       .;#@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15.77" y="540.3" class="t" style="animation-delay:3.73s">@@@@@@@@@@@@@@@@@@@@@@@@x.                  :;;;ooooooooo;;;;;;;;;;;;;;oo;;;;;:::;;;;;;;;ooooxxooooooooooo;;:,.         ...:o%#@@@@@@@@@@</tspan>
+<tspan x="15.77" y="545.0" class="t" style="animation-delay:3.77s">@@@@@@@@@@@@@@@@@@@@@@@#.                   :;;ooooooooooo;;;;;;;;;;;;;ooxoo;;;;;;;;;;;;oooxxxxxxooooooooo;;:.               ...,x@@@@@@@</tspan>
+<tspan x="15.77" y="549.7" class="t" style="animation-delay:3.8s">@@@@@@@@@@@@@@@@@@@@@@@;.                 .,:;;ooooooooooo;;;;;;;;;;;;;ooooo;;;;oooo;;;ooooxxoxxxoooooooo;;:,                     .,o@@@@</tspan>
+<tspan x="15.77" y="554.4" class="t" style="animation-delay:3.83s">@@@@@@@@@@@@@@@@@@@@@@#.                 .,::;;oooooooooooo;;;;;oooooo;;;;;;;;;oooooo;;oooxxxxxooooooooo;;:.                        ..:%@</tspan>
+<tspan x="15.77" y="559.1" class="t" style="animation-delay:3.87s">@@@@@@@@@@@@@@@@@@@@@@,                  .,::;;;oooooooooooo;;;;ooooooo;;;;;oooooooooooooxxxxxxxxoooooo;;:.                            .,</tspan>
+<tspan x="15.77" y="563.8" class="t" style="animation-delay:3.9s">@@@@@@@@@@@@@@@@@@@@@x.                  ..::;;;ooooooooooooo;;;oooooooo;;;oooooooooo;oooxxxxxxxooooooo;:.                               </tspan>
+<tspan x="15.77" y="568.5" class="t" style="animation-delay:3.93s">@@@@@@@@@@@@@@@@@@@#x,                    .,:;;;;oooooooooooo;;;;ooooooooooooooooooooooooxxxxxooooooo;;:.                                </tspan>
+</text>
+
+
+
+
+<!-- fastfetch output -->
+<text x="390" y="150" fill="#c9d1d9">
+<tspan id="terminal_user_info" x="390" y="150" class="t" style="animation-delay:0.90s">raj@github --------------------------</tspan>
+<tspan x="390" y="170" class="cc t" style="animation-delay:1.06s">. </tspan><tspan class="key t" style="animation-delay:1.06s">OS</tspan><tspan class="t" style="animation-delay:1.06s">:</tspan><tspan class="cc t" style="animation-delay:1.06s"> ........................ </tspan><tspan id="os_data" class="value t" style="animation-delay:1.06s">EndeavourOS / Arch Linux</tspan>
+<tspan x="390" y="190" class="cc t" style="animation-delay:1.22s">. </tspan><tspan class="key t" style="animation-delay:1.22s">Coding for</tspan><tspan class="t" style="animation-delay:1.22s">:</tspan><tspan id="age_data_dots" class="cc t" style="animation-delay:1.22s"> ........... </tspan><tspan id="age_data" class="value t" style="animation-delay:1.22s">5 years, 8 months, 14 days</tspan>
+<tspan x="390" y="210" class="cc t" style="animation-delay:1.38s">. </tspan><tspan class="key t" style="animation-delay:1.38s">College</tspan><tspan class="t" style="animation-delay:1.38s">:</tspan><tspan class="cc t" style="animation-delay:1.38s"> ................ </tspan><tspan id="college_data" class="value t" style="animation-delay:1.38s">SPIT, Mumbai</tspan>
+<tspan x="390" y="230" class="cc t" style="animation-delay:1.54s">. </tspan><tspan class="key t" style="animation-delay:1.54s">Tools &amp; Languages</tspan><tspan class="t" style="animation-delay:1.54s">: </tspan><tspan id="tools_data" class="value t" style="animation-delay:1.54s">Python, C/C++, PyTorch, TensorFlow</tspan>
+<tspan x="390" y="250" class="cc t" style="animation-delay:1.70s">. </tspan><tspan id="tools_data_2" class="value t" style="animation-delay:1.70s">Docker, Git, Linux</tspan>
+<tspan x="390" y="270" class="cc t" style="animation-delay:1.86s">. </tspan><tspan class="key t" style="animation-delay:1.86s">Experience</tspan><tspan class="t" style="animation-delay:1.86s">:</tspan><tspan id="experience_1" class="value t" style="animation-delay:1.86s">ISRO SAC, AI Research Intern (Dec 24 - Jul 25)</tspan>
+<tspan x="390" y="290" class="cc t" style="animation-delay:2.02s">. </tspan><tspan id="experience_2" class="value t" style="animation-delay:2.02s">NTRO, Project Intern (Aug - Nov 25)</tspan>
+<tspan x="390" y="310" class="cc t" style="animation-delay:2.18s">. </tspan><tspan id="experience_3" class="value t" style="animation-delay:2.18s">Barclays, Tech Intern (Jun - Aug 26)</tspan>
+<tspan x="390" y="330" class="cc t" style="animation-delay:2.34s">. </tspan><tspan class="key t" style="animation-delay:2.34s">Publications</tspan><tspan class="t" style="animation-delay:2.34s">:</tspan><tspan id="publications_data" class="value t" style="animation-delay:2.34s">Elsevier, Springer, IEEE</tspan>
+<tspan x="390" y="370" class="t" style="animation-delay:2.50s">- Contact ---------------------------</tspan>
+<tspan x="390" y="390" class="cc t" style="animation-delay:2.66s">. </tspan><tspan class="key t" style="animation-delay:2.66s">Email</tspan><tspan class="t" style="animation-delay:2.66s">:</tspan><tspan class="cc t" style="animation-delay:2.66s"> ...................... </tspan><tspan id="email_data" class="value t" style="animation-delay:2.66s">rajmathuria79@gmail.com</tspan>
+<tspan x="390" y="410" class="cc t" style="animation-delay:2.82s">. </tspan><tspan class="key t" style="animation-delay:2.82s">LinkedIn</tspan><tspan class="t" style="animation-delay:2.82s">:</tspan><tspan class="cc t" style="animation-delay:2.82s"> ........................ </tspan><tspan id="linkedin_data" class="value t" style="animation-delay:2.82s">raj-mathuria-98a710283</tspan>
+<tspan x="390" y="430" class="cc t" style="animation-delay:2.98s">. </tspan><tspan class="key t" style="animation-delay:2.98s">Location</tspan><tspan class="t" style="animation-delay:2.98s">:</tspan><tspan class="cc t" style="animation-delay:2.98s"> .......................... </tspan><tspan id="location_data" class="value t" style="animation-delay:2.98s">Mumbai, India</tspan>
+<tspan x="390" y="490" class="t" style="animation-delay:3.14s">- GitHub Stats ----------------------</tspan>
+<tspan x="390" y="510" class="cc t" style="animation-delay:3.30s">. </tspan><tspan class="key t" style="animation-delay:3.30s">Repos</tspan><tspan class="t" style="animation-delay:3.30s">:</tspan><tspan id="repo_data_dots" class="cc t" style="animation-delay:3.30s">. </tspan><tspan id="repo_data" class="value t" style="animation-delay:3.30s">70</tspan><tspan class="t" style="animation-delay:3.30s"> {</tspan><tspan class="key t" style="animation-delay:3.30s">Contributed</tspan><tspan class="t" style="animation-delay:3.30s">: </tspan><tspan id="contrib_data" class="value t" style="animation-delay:3.30s">94</tspan><tspan class="t" style="animation-delay:3.30s">} | </tspan><tspan class="key t" style="animation-delay:3.30s">Stars</tspan><tspan class="t" style="animation-delay:3.30s">:</tspan><tspan id="star_data_dots" class="cc t" style="animation-delay:3.30s"> ....... </tspan><tspan id="star_data" class="value t" style="animation-delay:3.30s">2</tspan>
+<tspan x="390" y="530" class="cc t" style="animation-delay:3.46s">. </tspan><tspan class="key t" style="animation-delay:3.46s">Commits</tspan><tspan class="t" style="animation-delay:3.46s">:</tspan><tspan id="commit_data_dots" class="cc t" style="animation-delay:3.46s"> ......... </tspan><tspan id="commit_data" class="value t" style="animation-delay:3.46s">615</tspan><tspan class="t" style="animation-delay:3.46s"> | </tspan><tspan class="key t" style="animation-delay:3.46s">Followers</tspan><tspan class="t" style="animation-delay:3.46s">:</tspan><tspan id="follower_data_dots" class="cc t" style="animation-delay:3.46s"> ....... </tspan><tspan id="follower_data" class="value t" style="animation-delay:3.46s">6</tspan>
+<tspan x="390" y="550" class="cc t" style="animation-delay:3.62s">. </tspan><tspan class="key t" style="animation-delay:3.62s">Lines of Code</tspan><tspan class="t" style="animation-delay:3.62s">:</tspan><tspan id="loc_data_dots" class="cc t" style="animation-delay:3.62s"/><tspan id="loc_data" class="value t" style="animation-delay:3.62s">1,755,564</tspan><tspan class="t" style="animation-delay:3.62s"> ( </tspan><tspan id="loc_add" class="addColor t" style="animation-delay:3.62s">3,155,142</tspan><tspan class="addColor t" style="animation-delay:3.62s">++</tspan><tspan class="t" style="animation-delay:3.62s">, </tspan><tspan id="loc_del_dots" class="t" style="animation-delay:3.62s"/><tspan id="loc_del" class="delColor t" style="animation-delay:3.62s">1,399,578</tspan><tspan class="delColor t" style="animation-delay:3.62s">--</tspan><tspan class="t" style="animation-delay:3.62s"> )</tspan>
+</text>
+
+<!-- prompt + cursor -->
+<text x="390" y="570" fill="#c9d1d9"><tspan x="390" y="570" class="prompt t" style="animation-delay:3.78s">raj@github</tspan><tspan class="sep t" style="animation-delay:3.78s">:</tspan><tspan class="value t" style="animation-delay:3.78s">~</tspan><tspan class="sep t" style="animation-delay:3.78s">$ </tspan><tspan class="t cursor" style="animation-delay:3.78s">█</tspan></text>
+</svg>

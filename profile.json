@@ -1,0 +1,17 @@
+{
+  "username": "raj",
+  "name": "Raj Kalpesh Mathuria",
+  "headline": "Data Science | Software | AI",
+  "os": "EndeavourOS / Arch Linux",
+  "college": "SPIT, Mumbai",
+  "tools": ["Python", "C/C++", "PyTorch", "TensorFlow", "Docker", "Git", "Linux"],
+  "experience": [
+    "ISRO SAC, AI Research Intern (Dec 24 - Jul 25)",
+    "NTRO, Project Intern (Aug - Nov 25)",
+    "Barclays, Tech Intern (Jun - Aug 26)"
+  ],
+  "publications": ["Elsevier", "Springer", "IEEE"],
+  "email": "rajmathuria79@gmail.com",
+  "linkedin": "raj-mathuria-98a710283",
+  "location": "Mumbai, India"
+}
